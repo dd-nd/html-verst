@@ -1,0 +1,120 @@
+/*body {
+	background:  red;
+}
+
+h1 {
+	color:  red;
+	font-size: 60px;
+}
+
+.my_header_1 {
+	color: green;
+}
+
+.my_header_2 {
+	color: blue;
+}
+
+.my_header_3 {
+	text-align: center;
+}
+
+
+.main_text {
+	text-align: center;
+	color: white;
+	background: pink;
+	text-decoration: underline;	
+	font-style: italic;
+}
+
+.some_text {
+	color: red;
+	font-weight: 900;
+	font-style:normal;
+}*/
+
+.btn1 {
+	transition: 1.5s;
+	text-shadow: ;
+	font-size: 25px;
+	width: 100px;
+	height: 40px;
+	background: black;
+	color: white;
+	border: 2px solid grey;
+	border-radius: 20px 20px 50px 50px;
+	box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
+
+}
+.btn1:hover {
+	transition: 0.5s;
+	background: white;
+	color:  black;
+}
+
+.btn1:active {
+	background: red;
+	color: white;
+}
+
+.row {
+	margin: 20px;
+	padding: 40px;
+	transition: 4s;
+	display: flex;
+	justify-content: space-evenly ;
+}
+
+.mycont {
+	/*display: inline-block;*/
+	transition: 0.2s;
+	background: white;
+	width: 250px;
+	height: 250px;
+	box-shadow: 0px 5px 5px 6px rgba(0,0,0,0.4) ;
+}
+
+.mycont h1 {
+	text-align: center;
+}
+
+.mycont img, .mycont button {
+	display: block;
+	margin: auto;
+}
+
+.mycont button {
+	background: black;
+	color: white;
+}
+
+.mycont button:active {
+	background: white;
+	color: black;
+}
+
+.mycont:hover {
+	/*display: inline-block;*/
+	transition: 0.2s;
+	/*background: white;
+	transform: rotate(45deg);
+	width: 350px;
+	height: 350px;
+	border-radius: 25px ;*/
+	box-shadow: 0px 5px 8px 10px rgba(0,0,0,0.4) ;
+}
+
+.mycont img {
+	transition: 0.5s;
+}
+
+.mycont:hover img {
+	transition: 0.5s;
+	transform: rotate(-45deg);
+}
+
+.mycont img:hover {
+	transition: 0.5s;
+	transform: rotate(45deg);
+}
